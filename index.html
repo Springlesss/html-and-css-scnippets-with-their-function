@@ -1,0 +1,146 @@
+<!--This is a comment. 
+You can write the comment on multiple lines!-->
+
+<!--Lets start with the "a" tag.-->
+
+<a></a> <!--If you use it like this example, you wont see any results. In order to get a tags working, you have to specify it a little more!-->
+<!--You could use href.-->
+<a href="web.adress">This text will be shown on you site.</a>
+<!--If you want a picture that is actually a hyperlink reference, ive got you covered-->
+<a href="web.adress"><img src="Type the url of your image in here. If its local in your server's folder, specify the file name here!"></a>
+
+<!--In case you want to use Javascript aswell, you must link it with your html document first. Here's how it's done.-->
+<script src="script.name(for example: index.js)"></script> <!--Now you connected you first script. You can add as many as you want.
+Just look out for initializing issues.-->
+
+<!--We already connected our script, let's connect a CSS file.-->
+<link rel="stylesheet" src="name of the CSS file">
+<!--Simple right?-->
+
+<!--Another thing you definitly want to do is use the best charset. You will need that for special letters like the german Umlaute Ö Ü Ä.-->
+<meta charset="UTF-8">
+<!--If you wonder where to place this:-->
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<!--Now look at titles and paragraphs.-->
+
+<!--For the good looking big titles.-->
+<!--1 is the largest. The higher the number the smaller the text.-->
+<h1>example title</h1>
+<h2>example title</h2>
+<h3>example title</h3>
+<h4>example title</h4>
+<h5>example title</h5>
+<h6>example title</h6>
+<h7>example title</h7>
+<h8>example title</h8>
+<h9>example title</h9>
+
+<!--Now paragraphs.-->
+<p>This is what you will use for plain text.</p>
+
+<!--The next section is our good old list.-->
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+<!--They will be listet in the correct order.-->
+
+<!--Containers and spans.-->
+
+<!--First one to be shown is the classic div container.-->
+<div>Content of this container.</div>
+<!--In most cases you won't use it like that. I personally use it to store bigger paragraph sections, or things i wanna move at the same time.-->
+
+<!--Span tag-->
+<span>Im pretty useless on my own:(</span>
+<!--It does nothing when you only use html.-->
+<!--When combined with CSS or Javascript this thing can and will be really useful.-->
+
+
+
+<!--Once again, a really useful tag.-->
+
+<!--The glorious button!-->
+<!--You will be using this even without CSS, Js, Python usw..-->
+
+<button>Im a wonderful button.</button>
+
+<!--It gets even better if you combine it with Javascript.-->
+
+<button onclick="callJsFunction()">BUTTON</button>
+<!--You can easily call a Js function with the onclick="feature".-->
+
+
+<!--Let me show you the "img" tag.-->
+
+<!--If you want a normal picture:-->
+<img src="picture name, url of image">
+
+<!--Now the more interesting image with a hyperlink reference.-->
+
+<img href="url" src="file name, image url">
+
+<!--The last html part.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute title UwU</title> <!--On my left you can see the title. That title will be shown in your window, the place were you close a tab.-->
+</head>
+<body>
+    
+</body>
+</html>
+
+<!--This is a good template for clean coding in html.-->
+
+<!--If you want to use CSS and or Javascript, you'll need classes.-->
+
+<p id="example id"></p>
+
+<!--Now classes.-->
+<p class="example class"></p>
+
+
+<!--Thats about as hard as it gets with html.-->
+<!--Lets enter phase two in the web-development plan.-->
+
+
+
+
+
+
+<!--CSS-->
+
+
+
+
+
+
+<!--There are two ways of integrating CSS in your website.-->
+
+<!--The first and best one is the way from line 17. Because im a nice person, i'll show it again.-->
+
+<link rel="stylesheet" src="CSS filename"> <!--Now you've connected a local CSS file.-->
+<!--Please do exactly that, always. Otherwise you'd have to you the bad way.-->
+
+<!--The second and horrible way.-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>UwU</title>
+    <style>
+      
+
+
+
+    </style>
+</head>
+
+<!--You may ask, why im so upset about this. The reason i am is the problem you discover after you createt a bigger site.
+All of you CSS is in you html file. After a few hours there's a lot of CSS, really, a LOT. So the natural consequence is a messy a** file
+where you cannot find anything. Hopefully you realized how bad that is. Lets continue.-->
